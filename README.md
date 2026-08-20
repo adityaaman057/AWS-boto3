@@ -1,1 +1,1 @@
-AWS services automation with boto3 using python.
+AWS services automation with boto3.
