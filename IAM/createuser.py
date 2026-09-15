@@ -4,8 +4,6 @@ import boto3
 iam = boto3.client('iam')
 
 # Create user
-response = iam.create_user(
-    UserName='aditya_new'
-)
+response = iam.create_user(UserName='aditya_new')
 
 print(response)
